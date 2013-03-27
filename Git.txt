@@ -56,3 +56,9 @@ title: 我的Blog
 现在，这个简单的Blog就可以发布了。
 先把所有内容加入本地git库。
 git add .
+git commit -m "first post"
+然后，前往github的网站，创建一个名为github_blog的库，
+接着，再将本地内容推送到github上你刚创建的库。
+git remote add origin https://github.com/mahongyan/github_blog.git
+git push origin gh-pages
+上传成功之后，等10分钟左右，访问http://mahongyan.github.com/github_blog
